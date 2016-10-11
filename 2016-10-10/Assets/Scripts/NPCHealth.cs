@@ -35,6 +35,10 @@ public class NPCHealth : MonoBehaviour {
 		if(rend!= null)
 			rend.enabled = false;
 
+		NPCCombat combat = gameObject.GetComponent<NPCCombat> ();
+		if (combat != null)
+			combat.enabled = false;
+
 		Rigidbody rbody = gameObject.AddComponent<Rigidbody> ();
 		rbody.AddForce (Vector3.back);
 	}

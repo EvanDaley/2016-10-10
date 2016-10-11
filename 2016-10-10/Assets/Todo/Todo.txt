@@ -24,3 +24,6 @@ create explicit training for the player
 
 Create a tool for rapidly dropping grass, plants, etc
 Create grass, plants, with as few polygons as possible
+
+
+add a base class that keeps track of bool:living
