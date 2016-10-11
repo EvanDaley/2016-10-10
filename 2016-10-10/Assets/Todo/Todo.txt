@@ -1,10 +1,7 @@
 Change title to capsule fight vol 3
 Change date in intro
-Fix dialogue 2
 
-Create weapons
-Create path for movement
-Create enemies
+Create diverse enemies
 Let the player fire weapon
 Create UI for health
 Create barriers
